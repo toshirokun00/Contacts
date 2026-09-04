@@ -1,0 +1,14 @@
+package com.comtrade.data.room
+
+import androidx.room.Database
+import androidx.room.RoomDatabase
+
+@Database(entities = [ContactEntity::class, RemoteKeyEntity::class], version = 1, exportSchema = false)
+
+abstract class ContactDatabase : RoomDatabase() {
+
+    abstract fun contactDao(): ContactDao
+
+    abstract fun remoteKeyDao(): RemoteKeyDao
+
+}
