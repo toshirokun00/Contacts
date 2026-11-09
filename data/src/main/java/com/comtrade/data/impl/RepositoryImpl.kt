@@ -29,7 +29,7 @@ class RepositoryImpl @Inject constructor(
         return Pager(
             config = PagingConfig(
                 pageSize = 6,
-                initialLoadSize = 6,
+                initialLoadSize = 10,
                 enablePlaceholders = false,
                 prefetchDistance = 1
             ),
