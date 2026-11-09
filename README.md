@@ -1,4 +1,5 @@
 Contacts App
+
 A simple Android application that retrieves and displays a list of contacts from a remote API. The app uses pagination with ViewPager/Paging components to efficiently load and display contact data.
 
 Features
